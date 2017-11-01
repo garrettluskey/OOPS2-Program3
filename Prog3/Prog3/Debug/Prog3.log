@@ -7,5 +7,6 @@
   LList.cpp
   VBot.cpp
   Generating Code...
-c:\users\my\source\repos\prog3\prog3\llist.cpp(115): warning C4172: returning address of local variable or temporary: returnlist
-  Prog3.vcxproj -> C:\Users\My\source\repos\Prog3\Debug\Prog3.exe
+c:\homework\oops2-program3\prog3\prog3\llist.cpp(115): warning C4172: returning address of local variable or temporary: returnlist
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+  Prog3.vcxproj -> C:\Homework\OOPS2-Program3\Prog3\Debug\Prog3.exe

@@ -194,7 +194,7 @@ namespace Lab5 {
 			this->Controls->Add(this->panel1);
 			this->Name = L"MyForm";
 			this->Text = L"MyForm";
-			this->FormClosing += gcnew System::Windows::Forms::FormClosingEventHandler(this, &MyForm::MyForm_FormClosing);
+			this->FormClosed += gcnew System::Windows::Forms::FormClosedEventHandler(this, &MyForm::MyForm_FormClosed);
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->trackBar1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->nudX))->EndInit();
@@ -234,11 +234,6 @@ namespace Lab5 {
 		BotList->ShowAll();
 		
 	}
-	private: System::Void MyForm_FormClosing(System::Object^  sender, System::Windows::Forms::FormClosingEventArgs^  e) {
-		timer1->Enabled = false;
-		
-		delete BotList;
-	}
 private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e) {
 	BotList->MoveAll();
 	BotList->BattleManager();
@@ -247,6 +242,11 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 }
 private: System::Void trackBar1_Scroll(System::Object^  sender, System::EventArgs^  e) {
 	timer1->Interval = trackBar1->Value;
+}
+private: System::Void MyForm_FormClosed(System::Object^  sender, System::Windows::Forms::FormClosedEventArgs^  e) {
+	timer1->Enabled = false;
+
+	delete BotList;
 }
 };
 }
