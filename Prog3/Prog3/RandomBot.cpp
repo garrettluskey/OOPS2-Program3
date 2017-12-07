@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "RandomBot.h"
 RandomBot::RandomBot(int x, int y, Panel ^ drawingPanel) : VBot(x, y, drawingPanel) {
 	image = gcnew Drawing::Bitmap("RandomBot.bmp");

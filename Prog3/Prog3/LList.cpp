@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "LList.h"
 #include "VBot.h"
 typedef VBot InfoType;

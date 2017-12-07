@@ -1,6 +1,6 @@
-
 #pragma once      // This is instead of the "#ifndef guard"
 
+#include "stdafx.h"
 
 #include <vcclr.h>   
 

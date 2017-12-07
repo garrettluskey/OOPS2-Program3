@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "Vbot.h"
 
 void VBot::Show()

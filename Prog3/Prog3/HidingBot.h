@@ -1,5 +1,7 @@
 #pragma once
+#include "stdafx.h"
 #include "VBot.h"
+
 class HidingBot : public VBot {
 public:
 	HidingBot(int x, int y, Panel ^ drawingPanel);

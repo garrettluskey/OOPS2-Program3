@@ -1,7 +1,7 @@
 #ifndef LLIST
 #define LLIST
 
-#include "VBot.h"
+#include "stdafx.h"
 typedef VBot InfoType;
 class LList
 {

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "VBot.h"
+#include "stdafx.h"
 class RandomBot : public VBot {
 	public:
 		RandomBot(int x, int y, Panel ^ drawingPanel);

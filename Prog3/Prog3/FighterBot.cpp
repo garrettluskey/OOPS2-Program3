@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "FighterBot.h"
 FighterBot::FighterBot(int x, int y, Panel ^ drawingPanel) : VBot(x, y, drawingPanel)
 {

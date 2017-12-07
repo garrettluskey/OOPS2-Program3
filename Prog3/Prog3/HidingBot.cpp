@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "HidingBot.h"
 HidingBot::HidingBot(int x, int y, Panel ^ drawingPanel) : VBot(x, y, drawingPanel) {
 	image = gcnew Drawing::Bitmap("HidingBot.bmp");

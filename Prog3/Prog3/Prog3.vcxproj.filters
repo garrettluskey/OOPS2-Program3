@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="BattleBots.cpp" />
+    <ClCompile Include="FighterBot.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="HidingBot.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LList.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomBot.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VBot.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BattleBots.h" />
+    <ClInclude Include="VBot.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomBot.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LList.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HidingBot.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FighterBot.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="AttackBot.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BattleBots.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{d7d5b839-c3c1-43bf-96c3-7eb9ac338b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{360db1fe-7128-412d-a626-8dff1d4212d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
