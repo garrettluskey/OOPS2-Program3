@@ -31,5 +31,5 @@ void RandomBot::Show()
 int RandomBot::EnergyToFightWith()
 {
 	Random R;
-	return R.Next(0, 200);
+	return R.Next(0, energy);
 }

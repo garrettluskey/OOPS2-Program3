@@ -24,5 +24,5 @@ void FighterBot::Show()
 
 int FighterBot::EnergyToFightWith()
 {
-	return 100;
+	return energy;
 }

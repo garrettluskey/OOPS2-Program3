@@ -40,5 +40,5 @@ void HidingBot::Show()
 
 int HidingBot::EnergyToFightWith()
 {
-	return 100;
+	return energy;
 }
